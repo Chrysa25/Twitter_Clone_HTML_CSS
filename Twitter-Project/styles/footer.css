@@ -1,0 +1,51 @@
+footer {
+  background-color: rgb(29, 155, 240);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 68px;
+}
+
+.info-1 {
+  color: white;
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: -2px;
+}
+
+.info-2 {
+  color: white;
+  font-size: 14px;
+  margin-top: -2px;
+}
+
+.connection-button {
+  background-color: rgb(29, 155, 240);
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(128, 193, 250);
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
+  border-radius: 16px;
+}
+
+.sign-up-button {
+  background-color: white;
+  border: none;
+  font-weight: bold;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 18px;
+  padding-right: 18px;
+  border-radius: 18px;
+}

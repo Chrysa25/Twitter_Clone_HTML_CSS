@@ -1,0 +1,42 @@
+.sidebar {
+  position: fixed;
+}
+
+.twitter-icon-container {
+  width: 50px;
+  height: 50px;
+  border-radius: 30px;
+}
+
+.twitter-icon-container:hover {
+  background-color: rgb(220, 220, 220);
+}
+
+.twitter-icon {
+  width: 50%;
+  margin-left: 12px;
+  margin-top: 10px;
+}
+
+.settings-container {
+  width: 150px;
+  height: 45px;
+  border-radius: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.settings-container:hover {
+  background-color: rgb(220, 220, 220);
+  
+}
+
+.settings-icon {
+  width: 22px;
+}
+
+.settings {
+  font-size: 20px;
+  margin-left: -14px;
+}

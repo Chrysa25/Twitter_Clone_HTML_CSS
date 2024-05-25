@@ -1,0 +1,24 @@
+body {
+  font-family: Arial;
+  background-color: black;
+  color: white;
+}
+
+.sidebar {
+  grid-area: sidebar;
+}
+
+main {
+  grid-area: main;
+}
+
+aside {
+  grid-area: aside;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 400px 600px 400px; 
+  grid-template-areas: 
+   "sidebar main aside";
+}
