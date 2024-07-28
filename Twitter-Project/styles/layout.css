@@ -2,7 +2,10 @@ body {
   font-family: Arial;
   background-color: black;
   color: white;
+  height: 3000px;
 }
+
+
 
 .sidebar {
   grid-area: sidebar;
@@ -18,7 +21,7 @@ aside {
 
 .grid-container {
   display: grid;
-  grid-template-columns: 400px 600px 400px; 
+  grid-template-columns: minmax(68px, 410px) 600px minmax(300, 500px); 
   grid-template-areas: 
    "sidebar main aside";
 }

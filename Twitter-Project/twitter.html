@@ -6,15 +6,19 @@
     <link rel="stylesheet" href="styles/aside.css">
     <link rel="stylesheet" href="styles/footer.css">
     <link rel="stylesheet" href="styles/main.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
   </head>  
   <body>
     <div class="grid-container">
       <nav class="sidebar">
         <div class="twitter-icon-container">
-          <img class="twitter-icon" src="icons/twitter-icon.svg">
+          <i class="fa-brands fa-x-twitter"></i>
         </div> 
         <div class="settings-container">
-          <img class="settings-icon" src="icons/settings-icon.svg">
+          <i class="fa-solid fa-gear"></i>
           <div class="settings">Settings</div>
         </div>
       </nav>
@@ -23,11 +27,14 @@
           <div class="profile-grid">
             <div class="header">
               <div class="back-arrow-container">
-                <img class="back-arrow-icon" src="icons/back-arrow.svg">
+                <i class="fa-solid fa-arrow-left"></i>
               </div>
               <div class="header-row">
-                <p class="name">X</p>
-                <p class="user-post-count">15,2 thousand posts</p>
+                <div class="header-row-name">
+                  X
+                  <img class="verified-gold-icon" src="icons/verified-gold.svg">
+                </div>
+                <div class="header-row-post-count">15,2 thousand posts</div>
               </div>
             </div>
             <div class="background-pic-container">
@@ -38,21 +45,24 @@
             </div>
             <button class="follow-button">Follow along</button>
             <div class="bio-container">
-              <div class="bio-name">X</div>
+              <div class="bio-name">
+                X 
+                <img class="verified-gold-icon" src="icons/verified-gold.svg">
+              </div>
               <div class="bio-user-name">@X</div>
               <div class="bio">what's happening?!</div>
             </div>
             <div class="profile-contacts">
               <div class="contacts-box">
-                <img src="icons/location_on.svg">
+                <i class="fa-solid fa-location-dot"></i>
                 <div class="location">everywhere</div>
               </div>
               <div class="contacts-box">
-                <img src="icons/link.svg"> 
+                <i class="fa-solid fa-link"></i>
                 <div class="link-about">about.x.com</div>
               </div>
               <div class="contacts-box">
-                <img src="icons/calendar_month.svg">
+                <i class="fa-solid fa-calendar-days"></i>
                 <div class="date-joined">Joined: February 2007</div>
               </div> 
             </div>  
@@ -72,7 +82,7 @@
 
           <div class="post">
             <div class="pinned-row">
-              <img class="pin-icon" src="icons/pinned.svg">
+              <i class="fa-solid fa-thumbtack"></i>
               <div>Pinned</div>
             </div>
             <div class="post-grid">
@@ -82,7 +92,7 @@
               <div class="post-container">
                 <div class="username-date-more-row">
                   <div class="username-date">
-                    <b>X</b> <span class="date-span">@X &#8231; March 30</span>
+                    <b>X</b> <img class="verified-gold-icon" src="icons/verified-gold.svg"> <span class="date-span">@X &#8231; March 30</span>
                   </div>
                   <div class="post-more-icon-container">
                     <img src="icons/more_horiz.svg">
@@ -93,24 +103,24 @@
                 </div>
                 <div class="interaction-row">
                   <div class="answer-container">
-                    <img src="icons/answer.svg">
+                    <i class="fa-regular fa-comment"></i>
                     <div>2k</div>
                   </div>
                   <div class="republication-container">
-                    <img src="icons/republication.svg">
+                    <i class="fa-solid fa-retweet"></i>
                     <div>1k</div>
                   </div>
                   <div class="like-container">
-                    <img src="icons/like.svg">
+                    <i class="fa-regular fa-heart"></i>
                     <div>8k</div>
                   </div>
                   <div class="projection-container">
-                    <img src="icons/projection.svg"> 
+                    <i class="fa-solid fa-square-poll-vertical"></i> 
                     <div>5m</div>
                   </div>
                   <div class="bookmark-share">
-                    <img src="icons/bookmark.svg">
-                    <img src="icons/share.svg">
+                    <i class="fa-regular fa-bookmark"></i>
+                    <i class="fa-solid fa-arrow-up-from-bracket"></i>
                   </div>  
                 </div>
               </div>
@@ -125,7 +135,7 @@
               <div class="post-container">
                 <div class="username-date-more-row">
                   <div class="username-date">
-                    <b>X</b> <span class="date-span">@X &#8231; May 14</span>
+                    <b>X</b> <img class="verified-gold-icon" src="icons/verified-gold.svg"> <span class="date-span">@X &#8231; May 14</span>
                   </div>
                   <div class="post-more-icon-container">
                     <img src="icons/more_horiz.svg">
@@ -143,24 +153,24 @@
                 </div>
                 <div class="interaction-row">
                   <div class="answer-container">
-                    <img src="icons/answer.svg">
+                    <i class="fa-regular fa-comment"></i>
                     <div>276</div>
                   </div>
                   <div class="republication-container">
-                    <img src="icons/republication.svg">
+                    <i class="fa-solid fa-retweet"></i>
                     <div>215</div>
                   </div>
                   <div class="like-container">
-                    <img src="icons/like.svg">
+                    <i class="fa-regular fa-heart"></i>
                     <div>1k</div>
                   </div>
                   <div class="projection-container">
-                    <img src="icons/projection.svg"> 
+                    <i class="fa-solid fa-square-poll-vertical"></i> 
                     <div>747k</div>
                   </div>
                   <div class="bookmark-share">
-                    <img src="icons/bookmark.svg">
-                    <img src="icons/share.svg">
+                    <i class="fa-regular fa-bookmark"></i>
+                    <i class="fa-solid fa-arrow-up-from-bracket"></i>
                   </div>  
                 </div>
               </div>
@@ -175,7 +185,7 @@
               <div class="post-container">
                 <div class="username-date-more-row">
                   <div class="username-date">
-                    <b>X</b> <span class="date-span">@X &#8231; May 12</span>
+                    <b>X</b> <img class="verified-gold-icon" src="icons/verified-gold.svg"> <span class="date-span">@X &#8231; May 12</span>
                   </div>
                   <div class="post-more-icon-container">
                     <img src="icons/more_horiz.svg">
@@ -186,24 +196,24 @@
                 </div>
                 <div class="interaction-row">
                   <div class="answer-container">
-                    <img src="icons/answer.svg">
+                    <i class="fa-regular fa-comment"></i>
                     <div>2k</div>
                   </div>
                   <div class="republication-container">
-                    <img src="icons/republication.svg">
+                    <i class="fa-solid fa-retweet"></i>
                     <div>3k</div>
                   </div>
                   <div class="like-container">
-                    <img src="icons/like.svg">
+                    <i class="fa-regular fa-heart"></i>
                     <div>27k</div>
                   </div>
                   <div class="projection-container">
-                    <img src="icons/projection.svg"> 
+                    <i class="fa-solid fa-square-poll-vertical"></i> 
                     <div>2m</div>
                   </div>
                   <div class="bookmark-share">
-                    <img src="icons/bookmark.svg">
-                    <img src="icons/share.svg">
+                    <i class="fa-regular fa-bookmark"></i>
+                    <i class="fa-solid fa-arrow-up-from-bracket"></i>
                   </div>  
                 </div>
               </div>
@@ -218,7 +228,7 @@
               <div class="post-container">
                 <div class="username-date-more-row">
                   <div class="username-date">
-                    <b>X</b> <span class="date-span">@X &#8231; May 12</span>
+                    <b>X</b> <img class="verified-gold-icon" src="icons/verified-gold.svg"> <span class="date-span">@X &#8231; May 12</span>
                   </div>
                   <div class="post-more-icon-container">
                     <img src="icons/more_horiz.svg">
@@ -229,24 +239,24 @@
                 </div>
                 <div class="interaction-row">
                   <div class="answer-container">
-                    <img src="icons/answer.svg">
+                    <i class="fa-regular fa-comment"></i>
                     <div>2k</div>
                   </div>
                   <div class="republication-container">
-                    <img src="icons/republication.svg">
+                    <i class="fa-solid fa-retweet"></i>
                     <div>3k</div>
                   </div>
                   <div class="like-container">
-                    <img src="icons/like.svg">
+                    <i class="fa-regular fa-heart"></i>
                     <div>27k</div>
                   </div>
                   <div class="projection-container">
-                    <img src="icons/projection.svg"> 
+                    <i class="fa-solid fa-square-poll-vertical"></i> 
                     <div>2m</div>
                   </div>
                   <div class="bookmark-share">
-                    <img src="icons/bookmark.svg">
-                    <img src="icons/share.svg">
+                    <i class="fa-regular fa-bookmark"></i>
+                    <i class="fa-solid fa-arrow-up-from-bracket"></i>
                   </div>  
                 </div>
               </div>
@@ -261,7 +271,7 @@
               <div class="post-container">
                 <div class="username-date-more-row">
                   <div class="username-date">
-                    <b>X</b> <span class="date-span">@X &#8231; May 14</span>
+                    <b>X</b> <img class="verified-gold-icon" src="icons/verified-gold.svg"> <span class="date-span">@X &#8231; May 14</span>
                   </div>
                   <div class="post-more-icon-container">
                     <img src="icons/more_horiz.svg">
@@ -272,24 +282,24 @@
                 </div>
                 <div class="interaction-row">
                   <div class="answer-container">
-                    <img src="icons/answer.svg">
+                    <i class="fa-regular fa-comment"></i>
                     <div>853</div>
                   </div>
                   <div class="republication-container">
-                    <img src="icons/republication.svg">
+                    <i class="fa-solid fa-retweet"></i>
                     <div>513</div>
                   </div>
                   <div class="like-container">
-                    <img src="icons/like.svg">
+                    <i class="fa-regular fa-heart"></i>
                     <div>4k</div>
                   </div>
                   <div class="projection-container">
-                    <img src="icons/projection.svg"> 
+                    <i class="fa-solid fa-square-poll-vertical"></i> 
                     <div>798k</div>
                   </div>
                   <div class="bookmark-share">
-                    <img src="icons/bookmark.svg">
-                    <img src="icons/share.svg">
+                    <i class="fa-regular fa-bookmark"></i>
+                    <i class="fa-solid fa-arrow-up-from-bracket"></i>
                   </div>  
                 </div>
               </div>
@@ -301,47 +311,66 @@
           <div class="container-1">
             <div class="title">New to X?</div>
             <div class="directions">Sign up now and get your own personalized calendar!</div>
-            <button class="google-button">Register through Google</button>
-            <button class="apple-button">Register through Apple</button>
+            <button class="google-button">
+              <i class="fa-brands fa-google"></i>
+              Register through Google
+            </button>
+            <button class="apple-button">
+              <i class="fa-brands fa-apple"></i>
+              Register through Apple
+            </button>
             <button class="create-acount-button">Create Account</button>
-            <div class="terms">By registering, you agree to the Terms of Service and the Privacy Policy, including the User of Cookies.</div>
+            <div class="terms">By registering, you agree to the <span class="terms-span">Terms of Service</span> and the <span class="terms-span">Privacy Policy</span> , including the <span class="terms-span">Use of Cookies</span>.</div>
           </div>
-  
+
           <div class="container-2">
-            <div class="title-2">You might like it</div>
-            <div class="row">
-              <img class="profile-picture" src="pictures/profile-picture.jpg">
-              <div class="info">
-                <p class="name">Elon Musk</p>
-                <p class="user-name">@elonmusk</p>
+            <div class="title-2">You might like it</div> 
+            <div class="recommended-profiles">
+              <div class="recommended-profiles-picture-container">
+                <img class="recommended-profiles-picture" src="pictures/recommendet-profile-picture1.jpg">
               </div>
-              <button class="follow-button">Follow along</button>
-            </div>
-  
-            <div class="row">
-              <img class="profile-picture" src="pictures/profile-picture.jpg">
-              <div class="info">
-                <p class="name">Elon Musk</p>
-                <p class="user-name">@elonmusk</p>
+              <div class="recommended-profiles-row">
+                <div class="recommended-profiles-name">Elon Musk <img src="icons/verified-blue.svg"></div>
+                <div class="recommended-profiles-username">@elonmusk</div>
               </div>
-              <button class="follow-button">Follow along</button>
-            </div>
-  
-            <div class="row">
-              <img class="profile-picture" src="pictures/profile-picture.jpg">
-              <div class="info">
-                <p class="name">Elon Musk</p>
-                <p class="user-name">@elonmusk</p>
+              <div class="recommended-profiles-button-container">
+                <button class="recommended-profiles-button">Follow along</button>
               </div>
-              <button class="follow-button">Follow along</button>
             </div>
+
+            <div class="recommended-profiles">
+              <div class="recommended-profiles-picture-container">
+                <img class="recommended-profiles-picture-g" src="pictures/recommendet-profile-picture2.jpg">
+              </div>
+              <div class="recommended-profiles-row">
+                <div class="recommended-profiles-name">Google <img class="verified-gold-icon" src="icons/verified-gold.svg"></div>
+                <div class="recommended-profiles-username">@Google</div>
+              </div>
+              <div class="recommended-profiles-button-container">
+                <button class="recommended-profiles-button">Follow along</button>
+              </div>
+            </div>
+
+            <div class="recommended-profiles">
+              <div class="recommended-profiles-picture-container">
+                <img class="recommended-profiles-picture" src="pictures/recommendet-profile-picture3.jpg">
+              </div>
+              <div class="recommended-profiles-row">
+                <div class="recommended-profiles-name">Bill Gates <img src="icons/verified-blue.svg"></div>
+                <div class="recommended-profiles-username">@BillGates</div>
+              </div>
+              <div class="recommended-profiles-button-container">
+                <button class="recommended-profiles-button">Follow along</button>
+              </div>
+            </div>
+            <div class="recommended-profiles-more">Show more</div>
           </div>
-  
+
           <div class="container-3">
             <p class="trends">Trends are not available.</p>
           </div>
-          <p>
-            Terms of Service Personal data protection policy Cookie policy Accessibility Advertising information More © 2024 X Corp.
+          <p class="terms-data-cookie">
+            Terms of Service&nbsp;&nbsp;&nbsp; Personal data protection policy&nbsp;&nbsp; Cookie policy&nbsp;&nbsp;&nbsp; Accessibility<br> Advertising information&nbsp;&nbsp;&nbsp; More &ctdot;&nbsp;&nbsp;&nbsp; © 2024 X Corp.
           </p>
         </aside>
 
