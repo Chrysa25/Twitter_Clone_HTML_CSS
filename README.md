@@ -1,1 +1,1 @@
-# Tweeter_Clone_HTML_CSS
+# Twitter_Clone_HTML_CSS
